@@ -15,6 +15,14 @@ def swap_elements(array)
   array
 end
 
+def swap_elements_from_to(array, index, dest_index)
+  array[index], array[dest_index] = array[dest_index], array[index] 
+end 
+
 def reverse_array(array)
   array.reverse!
+end   
+
+def kesha_maker(array)
+  
 end   
