@@ -34,6 +34,6 @@ end
 
 def find_a(array)
   array.each do |word|
-    p word if word.first("a")
+    p word if word.[0] == "a"
   end
 end
