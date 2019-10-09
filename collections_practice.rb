@@ -46,7 +46,8 @@ end
 
 
 def add_s(array)
-  array.collect do |word|
+  plural_words
+  array.each_with_index do |word, char|
     word[1] = "s"
   end
 end 
