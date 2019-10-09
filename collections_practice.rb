@@ -43,3 +43,10 @@ end
 def sum_array(array)
   array.inject {|sum, i| sum + i}
 end
+
+
+def add_s(array)
+  array.collect do |word|
+    word[1] = "s"
+  end
+end 
