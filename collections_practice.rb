@@ -33,7 +33,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
+  a_words = []
   array.each do |word|
-    p word if word[0] == "a"
+    a_words << word if word[0] == "a"
   end
 end
