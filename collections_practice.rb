@@ -48,13 +48,7 @@ end
 def add_s(array)
   plural_words = []
   array.each_with_index do |word, index|
-    if index != 1
-      word.collect do |i|
-        plural_words << word + "s"
-      end
-    else
-      plural_words << word
-    end
+    plural_words << word + "s" unless index == 1
   end
   plural_words
 end
