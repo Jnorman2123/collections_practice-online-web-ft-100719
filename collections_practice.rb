@@ -56,4 +56,5 @@ def add_s(array)
       plural_words << word
     end
   end
+  plural_words
 end
