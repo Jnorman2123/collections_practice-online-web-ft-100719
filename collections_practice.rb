@@ -50,4 +50,4 @@ def add_s(array)
   array.each_with_index do |word, char|
     word[1] = "s"
   end
-end 
+end
